@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	
+	<title>mickjoust-test-demo</title>
+	
+	<link href="#springUrl('')/assets/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	
+
+</head>
+
+<body>
+	<span>hello world</span>
+
+    <script src="#springUrl('')/assets/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="#springUrl('')/assets/jquery/jquery-1.12.4.min.js"></script>
+</body>
+
+</html>

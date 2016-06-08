@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace必须指向Dao接口 -->
+<mapper namespace="com.hjf.boot.demo.boot_mybatis_mvc.dao.ShowDao">
+
+    <select id="findByAge" parameterType="int" resultType="Info">
+        SELECT
+        id,
+        name,
+        age
+        FROM info
+        WHERE age = #{age}
+    </select>
+
+</mapper>
