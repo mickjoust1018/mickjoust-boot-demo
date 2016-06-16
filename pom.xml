@@ -19,6 +19,8 @@
         <module>boot-actuator</module>
         <module>boot-start</module>
         <module>boot-mybatis-mvc</module>
+        <module>boot-properties</module>
+        <module>boot-starterpom</module>
     </modules>
 
     <properties>
