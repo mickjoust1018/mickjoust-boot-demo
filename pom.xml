@@ -10,25 +10,26 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>boot-mybatis</module>
-        <module>boot-redis</module>
-        <module>boot-front</module>
-        <module>boot-jpa</module>
-        <module>boot-security</module>
-        <module>boot-jms</module>
-        <module>boot-amqp</module>
+        <!--<module>boot-cache</module>-->
+        <!--<module>boot-database</module>-->
+        <!--<module>boot-flux</module>-->
+        <!--<module>boot-security</module>-->
+        <!--<module>boot-jms</module>-->
+        <!--<module>boot-amqp</module>-->
         <module>boot-actuator</module>
         <module>boot-start</module>
         <module>boot-mybatis-mvc</module>
         <module>boot-properties</module>
-        <module>boot-starterpom</module>
+        <!--<module>boot-starterpom</module>-->
+        <!--<module>boot-apm</module>-->
     </modules>
 
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
         <!--spring 5.x-->
-        <spring.version>5.0.2.RELEASE</spring.version>
+        <spring.version>5.0.5.RELEASE</spring.version>
         <!--更新版本 2017/12/8-->
-        <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
+        <spring.boot.version>2.0.0.RELEASE</spring.boot.version>
         <starter.mybatis.version>1.1.1</starter.mybatis.version>
         <common.lang3.version>3.4</common.lang3.version>
         <jdbc.driver.version>5.1.39</jdbc.driver.version>
