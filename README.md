@@ -3,9 +3,10 @@
 ## (关注我的[CSDN博客](https://mickjoust.blog.csdn.net/)，获得更多相关技术技巧)
 
 ## 入门
-Spring Boot 实践折腾记（一）：快速，Hello World例子<br>
-Spring Boot 实践折腾记（四）：配置即使用，常用配置<br>
-Spring Boot 实践折腾记（六）：Spring Boot中容器配置和SSL支持<br>
+
+- Spring Boot 实践折腾记（一）：快速，Hello World例子<br>
+- Spring Boot 实践折腾记（四）：配置即使用，常用配置<br>
+- Spring Boot 实践折腾记（六）：Spring Boot中容器配置和SSL支持<br>
 
 ## 操作数据库
 Spring Boot 实践折腾记（二）：切入点，Spring MVC集成Mybatis的经典例子<br>
