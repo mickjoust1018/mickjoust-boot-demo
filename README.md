@@ -29,9 +29,9 @@
 - [Spring Boot 实践折腾记（17）：Spring WebFlux中的函数式编程模型](https://blog.csdn.net/mickjoust/article/details/80324318)
 
 ## 缓存
-- [Spring Boot 实践折腾记（12）：数据缓存Cache的一般支持]()
+- [Spring Boot 实践折腾记（12）：数据缓存Cache的一般支持](https://blog.csdn.net/mickjoust/article/details/80227918)
 
 ## 兼容性
-- [Spring Boot 实践折腾记（14）：使用Kotlin]()
-- [Spring Boot 实践折腾记（15）：使用Groovy]()
-- [Spring Boot 实践折腾记（16）：使用Scala]()
+- [Spring Boot 实践折腾记（14）：使用Kotlin](https://blog.csdn.net/mickjoust/article/details/80267502)
+- [Spring Boot 实践折腾记（15）：使用Groovy](https://blog.csdn.net/mickjoust/article/details/80279100)
+- [Spring Boot 实践折腾记（16）：使用Scala](https://blog.csdn.net/mickjoust/article/details/80307042)
