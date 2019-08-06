@@ -4,7 +4,7 @@
 
 ## 入门
 
-- Spring Boot 实践折腾记（一）：快速，Hello World例子<br>
+- [Spring Boot 实践折腾记（一）：快速，Hello World例子](https://blog.csdn.net/mickjoust/article/details/51605515)
 - Spring Boot 实践折腾记（四）：配置即使用，常用配置<br>
 - Spring Boot 实践折腾记（六）：Spring Boot中容器配置和SSL支持<br>
 
