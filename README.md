@@ -1,7 +1,5 @@
 ## Spring Boot 实践折腾记的代码实现
 
-## (关注我的[CSDN博客](https://mickjoust.blog.csdn.net/)，获得更多相关技术技巧)
-
 ## 入门
 
 - [Spring Boot 实践折腾记（一）：快速，Hello World例子](https://blog.csdn.net/mickjoust/article/details/51605515)
@@ -35,3 +33,5 @@
 - [Spring Boot 实践折腾记（14）：使用Kotlin](https://blog.csdn.net/mickjoust/article/details/80267502)
 - [Spring Boot 实践折腾记（15）：使用Groovy](https://blog.csdn.net/mickjoust/article/details/80279100)
 - [Spring Boot 实践折腾记（16）：使用Scala](https://blog.csdn.net/mickjoust/article/details/80307042)
+
+## (传送门：我的blog>>>[CSDN博客](https://mickjoust.blog.csdn.net/)，获得更多相关技术技巧)<<<
