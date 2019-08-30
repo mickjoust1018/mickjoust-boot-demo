@@ -11,6 +11,10 @@ boot
 - [Spring Boot 实践折腾记（四）：配置即使用，常用配置](https://blog.csdn.net/mickjoust/article/details/51657601)
 - [Spring Boot 实践折腾记（六）：Spring Boot中容器配置和SSL支持](https://blog.csdn.net/mickjoust/article/details/51731860)
 
+## Web应用
+
+- 
+
 ## 操作数据库
 - [Spring Boot 实践折腾记（二）：切入点，Spring MVC集成Mybatis的经典例子](https://blog.csdn.net/mickjoust/article/details/51612482)
 - [Spring Boot 实践折腾记（三）：三板斧，Spring Boot下使用Mybatis](https://blog.csdn.net/mickjoust/article/details/51646658)
