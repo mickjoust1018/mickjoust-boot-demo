@@ -2,8 +2,13 @@ package com.mickjoust.demo.spring.boot;
 
 
 import com.alibaba.fastjson.JSON;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
@@ -27,10 +32,6 @@ public class LocalChart {
         SpringApplication.run(LocalChart.class,args);
     }
 
-    /**
-     * 本地图表
-     * @return
-     */
     @RequestMapping("/localchart")
     public ModelAndView localChart(){
         //构造模板引擎
@@ -79,13 +80,14 @@ public class LocalChart {
     }
 
 
+    @Getter
+    @Setter
+    @NoArgsConstructor
     class Tree {
+
         private String name;
         private List<Tree> children;
         private Object value;
-
-        public Tree() {
-        }
 
         public Tree(String name) {
             this.name = name;
@@ -95,59 +97,15 @@ public class LocalChart {
             this.name = name;
             this.value = value;
         }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public List<Tree> getChildren() {
-            return children;
-        }
-
-        public void setChildren(List<Tree> children) {
-            this.children = children;
-        }
-
-        public Object getValue() {
-            return value;
-        }
-
-        public void setValue(Object value) {
-            this.value = value;
-        }
-
-
     }
 
-
-
+    @Getter
+    @Setter
+    @AllArgsConstructor
     class User {
+
         private String name;
         private String[] array;
 
-        public User(String name, String[] array) {
-            this.name = name;
-            this.array = array;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String[] getArray() {
-            return array;
-        }
-
-        public void setArray(String[] array) {
-            this.array = array;
-        }
     }
 }
