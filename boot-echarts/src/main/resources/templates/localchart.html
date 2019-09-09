@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="用户信息">User</title>
+    <!--默认拼接前缀路径,开头请勿再添加斜杠,防止部署运行报错！-->
+    <script th:replace="head::static"></script>
+</head>
+<body>
+<!--测试使用-->
+<h1 th:text="${user.name}">列表名称</h1>
+<ul>
+    <li th:each="item: ${user.array}" th:text="${item}">条目</li>
+</ul>
+<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+<div id="main" style="width: 800px;height:800px;"></div>
+<script>
+    var myChart = echarts.init(document.getElementById('main'));
+
+    myChart.showLoading();
+
+    $.ajax({
+        type : "post",
+        async : true,            //异步请求（同步请求将会锁住浏览器，用户其他操作必须等待请求完成才可以执行）
+        url : "http://localhost:8080/getJsonData",    //请求发送到TestServlet处
+        data : {},
+        dataType: "json",
+        //jsonp: "callback",//传递给请求处理程序或页面的，用以获得jsonp回调函数名的参数名(一般默认为:callback)
+        jsonpCallback:"",//指定callback，不指定则会jquery默认取名
+        success : function(result) {
+            //请求成功时执行该函数内容，result即为服务器返回的json对象
+            if (result) {
+                myChart.hideLoading();
+
+                myChart.setOption(option = {
+
+                    tooltip: {
+                        trigger: 'item',
+                        triggerOn: 'mousemove'
+                    },
+
+                    series:[
+                        {
+                            type: 'tree',
+
+                            data: [result],
+
+                            top: '1%',
+                            left: '15%',
+                            bottom: '1%',
+                            right: '7%',
+
+                            symbolSize: 7,
+
+                            orient: 'RL',
+
+                            label: {
+                                position: 'right',
+                                verticalAlign: 'middle',
+                                align: 'left'
+                            },
+
+                            leaves: {
+                                label: {
+                                    position: 'left',
+                                    verticalAlign: 'middle',
+                                    align: 'right'
+                                }
+                            },
+
+                            expandAndCollapse: true,
+                            animationDuration: 550,
+                            animationDurationUpdate: 750
+                        }
+                    ]
+                });
+            }
+        },
+        error : function(errorMsg) {
+            //请求失败时执行该函数
+            alert("请求数据失败!");
+            myChart.hideLoading();
+        }
+    })
+</script>
+
+</body>
+</html>
