@@ -30,6 +30,8 @@ public class ConfigSwagger {
                 .build();
     }
 
+
+
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("在Spring Boot 2中使用Swagger 2自动构建RESTful APIs文档")

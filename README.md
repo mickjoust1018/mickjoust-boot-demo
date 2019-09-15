@@ -13,7 +13,7 @@ boot
 
 ## Web应用
 
-- 
+- [Spring Boot 实践折腾记（20）：Thymleaf + webjar + ECharts 构建本地图表](https://blog.csdn.net/mickjoust/article/details/100652820)
 
 ## 操作数据库
 - [Spring Boot 实践折腾记（二）：切入点，Spring MVC集成Mybatis的经典例子](https://blog.csdn.net/mickjoust/article/details/51612482)
