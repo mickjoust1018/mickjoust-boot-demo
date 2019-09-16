@@ -1,4 +1,4 @@
-package com.mickjoust.demo.spring.boot;
+package com.mickjoust.demo.spring.boot.echarts;
 
 
 import com.alibaba.fastjson.JSON;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;

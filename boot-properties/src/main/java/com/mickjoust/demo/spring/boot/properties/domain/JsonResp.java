@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_properties.domain;
+package com.mickjoust.demo.spring.boot.properties.domain;
 
 /**
  * Created by mickjoust on 2016/6/14.

@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_mybatis.dao;
+package com.mickjoust.demo.spring.boot.mybatis.dao;
 
 import org.springframework.stereotype.Component;
 

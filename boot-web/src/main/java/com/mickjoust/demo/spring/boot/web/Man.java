@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.web;
+package com.mickjoust.demo.spring.boot.web;
 
 /**
  * name: com.hjf.boot.demo.web

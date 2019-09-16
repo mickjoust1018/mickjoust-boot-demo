@@ -1,7 +1,6 @@
-package com.hjf.boot.demo.boot_properties;
+package com.mickjoust.demo.spring.boot.properties;
 
 //import com.hjf.boot.demo.boot_starterpom.TestServices;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;

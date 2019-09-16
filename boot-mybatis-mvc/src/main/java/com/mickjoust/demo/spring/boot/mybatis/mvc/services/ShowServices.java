@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_mybatis_mvc.services;
+package com.mickjoust.demo.spring.boot.mybatis.mvc.services;
 
 import org.springframework.stereotype.Service;
 
