@@ -1,6 +1,6 @@
-package com.hjf.boot.demo.boot_mybatis.dao;
+package com.mickjoust.demo.spring.boot.mybatis.dao;
 
-import com.hjf.boot.demo.boot_mybatis.domain.TestPOJO;
+import com.mickjoust.demo.spring.boot.mybatis.domain.TestPOJO;
 //import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

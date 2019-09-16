@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux.webFlux;
+package com.mickjoust.demo.spring.boot.flux.webFlux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import reactor.core.publisher.Flux;
 import reactor.util.function.Tuples;
 
-import javax.swing.*;
 import java.time.Duration;
 import java.util.concurrent.ThreadLocalRandom;
 

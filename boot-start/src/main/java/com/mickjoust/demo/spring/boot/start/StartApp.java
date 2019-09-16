@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_start;
+package com.mickjoust.demo.spring.boot.start;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

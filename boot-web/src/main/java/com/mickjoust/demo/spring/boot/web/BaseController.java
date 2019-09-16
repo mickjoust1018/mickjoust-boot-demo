@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.web;
+package com.mickjoust.demo.spring.boot.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

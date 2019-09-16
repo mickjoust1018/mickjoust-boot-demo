@@ -1,7 +1,7 @@
-package com.hjf.boot.demo.boot_properties.api;
+package com.mickjoust.demo.spring.boot.properties.api;
 
-import com.hjf.boot.demo.boot_properties.domain.JsonResp;
-import com.hjf.boot.demo.boot_properties.domain.TestInfoSettings;
+import com.mickjoust.demo.spring.boot.properties.domain.JsonResp;
+import com.mickjoust.demo.spring.boot.properties.domain.TestInfoSettings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

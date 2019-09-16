@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_mybatis.config;
+package com.mickjoust.demo.spring.boot.mybatis.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.tomcat.jdbc.pool.DataSource;

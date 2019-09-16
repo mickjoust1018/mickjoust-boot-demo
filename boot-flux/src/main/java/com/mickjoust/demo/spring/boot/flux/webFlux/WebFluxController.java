@@ -1,6 +1,6 @@
-package com.hjf.boot.demo.flux.webFlux;
+package com.mickjoust.demo.spring.boot.flux.webFlux;
 
-import com.hjf.boot.demo.flux.Man;
+import com.mickjoust.demo.spring.boot.flux.Man;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 /**
