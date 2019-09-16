@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux.webFlux;
+package com.mickjoust.demo.spring.boot.flux.webFlux;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.socket.WebSocketHandler;

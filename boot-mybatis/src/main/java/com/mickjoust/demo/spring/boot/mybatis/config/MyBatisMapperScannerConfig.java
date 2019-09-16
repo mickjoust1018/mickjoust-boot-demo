@@ -1,6 +1,6 @@
-package com.hjf.boot.demo.boot_mybatis.config;
+package com.mickjoust.demo.spring.boot.mybatis.config;
 
-import com.hjf.boot.demo.boot_mybatis.dao.Mapper;
+import com.mickjoust.demo.spring.boot.mybatis.dao.Mapper;
 import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.context.annotation.Bean;

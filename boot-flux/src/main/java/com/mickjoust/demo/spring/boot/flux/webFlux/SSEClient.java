@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux.webFlux;
+package com.mickjoust.demo.spring.boot.flux.webFlux;
 
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;

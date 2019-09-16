@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.web.api;
+package com.mickjoust.demo.spring.boot.web.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;

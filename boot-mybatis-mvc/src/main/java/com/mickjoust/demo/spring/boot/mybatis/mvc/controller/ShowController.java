@@ -1,7 +1,7 @@
-package com.hjf.boot.demo.boot_mybatis_mvc.controller;
+package com.mickjoust.demo.spring.boot.mybatis.mvc.controller;
 
-import com.hjf.boot.demo.boot_mybatis_mvc.dao.ShowDao;
-import com.hjf.boot.demo.boot_mybatis_mvc.domain.Info;
+import com.mickjoust.demo.spring.boot.mybatis.mvc.dao.ShowDao;
+import com.mickjoust.demo.spring.boot.mybatis.mvc.domain.Info;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,7 +1,7 @@
-package com.hjf.boot.demo.boot_mybatis.services;
+package com.mickjoust.demo.spring.boot.mybatis.services;
 
-import com.hjf.boot.demo.boot_mybatis.dao.TestDao;
-import com.hjf.boot.demo.boot_mybatis.domain.TestPOJO;
+import com.mickjoust.demo.spring.boot.mybatis.dao.TestDao;
+import com.mickjoust.demo.spring.boot.mybatis.domain.TestPOJO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

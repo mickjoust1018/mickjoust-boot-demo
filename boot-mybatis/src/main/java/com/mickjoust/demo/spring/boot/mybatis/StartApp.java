@@ -1,10 +1,8 @@
-package com.hjf.boot.demo.boot_mybatis;
+package com.mickjoust.demo.spring.boot.mybatis;
 
 //import org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.ImportResource;
 
 /**
  * Created by mickjoust on 2016/5/16.

@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_properties.mvc;
+package com.mickjoust.demo.spring.boot.properties.mvc;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;

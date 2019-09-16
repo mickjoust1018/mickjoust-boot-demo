@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_mybatis_mvc.interceptor;
+package com.mickjoust.demo.spring.boot.mybatis.mvc.interceptor;
 
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
