@@ -1,6 +1,6 @@
-package com.hjf.boot.demo.boot_mybatis_mvc.dao;
+package com.mickjoust.demo.spring.boot.mybatis.mvc.dao;
 
-import com.hjf.boot.demo.boot_mybatis_mvc.domain.Info;
+import com.mickjoust.demo.spring.boot.mybatis.mvc.domain.Info;
 
 import java.util.List;
 

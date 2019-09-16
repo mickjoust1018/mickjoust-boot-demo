@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_properties.httpConvert;
+package com.mickjoust.demo.spring.boot.properties.httpConvert;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;

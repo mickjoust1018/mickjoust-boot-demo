@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux;
+package com.mickjoust.demo.spring.boot.flux;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Hooks;

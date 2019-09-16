@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.swagger;
+package com.mickjoust.demo.spring.boot.swagger;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux;
+package com.mickjoust.demo.spring.boot.flux;
 
 /**
  * name: com.hjf.boot.demo.flux

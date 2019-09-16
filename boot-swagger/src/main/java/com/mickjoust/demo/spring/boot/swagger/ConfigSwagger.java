@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.swagger;
+package com.mickjoust.demo.spring.boot.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
