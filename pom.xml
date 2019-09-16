@@ -10,9 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>boot-mybatis</module>
-        <!--<module>boot-cache</module>-->
+        <module>boot-cache</module>
         <!--<module>boot-database</module>-->
-        <!--<module>boot-flux</module>-->
+        <module>boot-flux</module>
         <!--<module>boot-security</module>-->
         <!--<module>boot-jms</module>-->
         <!--<module>boot-amqp</module>-->
@@ -23,7 +23,7 @@
         <module>boot-echarts</module>
         <module>boot-upload</module>
         <module>boot-swagger</module>
-        <!--<module>boot-starterpom</module>-->
+        <module>boot-web</module>
         <!--<module>boot-apm</module>-->
     </modules>
 

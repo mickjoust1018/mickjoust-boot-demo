@@ -76,7 +76,7 @@
 	<mvc:resources location="/static/" mapping="/static/**" cache-period="864000" />
 
 	<!-- bean -->
-	<bean id="loginInterceptor" class="com.hjf.boot.demo.boot_mybatis_mvc.interceptor.LoginInterceptor" />
+	<bean id="loginInterceptor" class="com.mickjoust.demo.spring.boot.mybatis.mvc.interceptor.LoginInterceptor" />
 	
 	<!-- 拦截器配置 -->
 	<mvc:interceptors>

@@ -3,7 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <!-- namespace必须指向Dao接口 -->
-<mapper namespace="com.hjf.boot.demo.boot_mybatis.dao.TestDao">
+<mapper namespace="com.mickjoust.demo.spring.boot.mybatis.dao.TestDao">
 
     <!-- 所有列 -->
     <sql id="Column_list">

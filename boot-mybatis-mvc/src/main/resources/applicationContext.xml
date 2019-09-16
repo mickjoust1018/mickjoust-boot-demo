@@ -40,7 +40,7 @@
 	<!-- 扫描basePackage下所有定义为 @Mapper 的接口-->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.hjf.boot.demo.boot_mybatis_mvc" />
-		<property name="annotationClass" value="com.hjf.boot.demo.boot_mybatis_mvc.dao.Mapper"/>
+		<property name="annotationClass" value="com.mickjoust.demo.spring.boot.mybatis.mvc.dao.Mapper"/>
 	</bean>
 
 	<!-- 使用annotation定义事务 -->

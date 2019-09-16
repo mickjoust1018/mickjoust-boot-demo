@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!-- namespace必须指向Dao接口 -->
-<mapper namespace="com.hjf.boot.demo.boot_mybatis_mvc.dao.ShowDao">
+<mapper namespace="com.mickjoust.demo.spring.boot.mybatis.mvc.dao.ShowDao">
 
     <select id="findByAge" parameterType="int" resultType="Info">
         SELECT
