@@ -1,6 +1,6 @@
-package com.hjf.boot.demo.flux.webFlux;
+package com.mickjoust.demo.spring.boot.flux.webFlux;
 
-import com.hjf.boot.demo.flux.Man;
+import com.mickjoust.demo.spring.boot.flux.Man;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

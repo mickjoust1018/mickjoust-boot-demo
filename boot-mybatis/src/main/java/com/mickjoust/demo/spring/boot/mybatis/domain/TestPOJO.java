@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_mybatis.domain;
+package com.mickjoust.demo.spring.boot.mybatis.domain;
 
 /**
  * Created by mickjoust on 2016/5/16.

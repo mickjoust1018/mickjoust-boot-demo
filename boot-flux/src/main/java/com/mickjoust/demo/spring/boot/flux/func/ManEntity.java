@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.flux.func;
+package com.mickjoust.demo.spring.boot.flux.func;
 
 import javax.persistence.*;
 

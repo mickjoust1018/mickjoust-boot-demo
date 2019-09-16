@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.boot_properties.domain;
+package com.mickjoust.demo.spring.boot.properties.domain;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

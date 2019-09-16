@@ -1,4 +1,4 @@
-package com.hjf.boot.demo.swagger;
+package com.mickjoust.demo.spring.boot.swagger;
 
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -8,7 +8,6 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
