@@ -14,7 +14,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <jdbc.driver.version>5.1.39</jdbc.driver.version>
+        <jdbc.driver.version>8.0.16</jdbc.driver.version>
         <tomcat-jdbc.version>7.0.52</tomcat-jdbc.version>
         <mybatis.version>3.2.5</mybatis.version>
         <mybatis-spring.version>1.2.2</mybatis-spring.version>
